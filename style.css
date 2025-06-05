@@ -22,10 +22,12 @@ h2, h3 {
     margin: 10.5px;
     padding: 1px;
 }
-.box{
-    width: 425px;
-    height: 550px;
+.box {
+    width: 100%;
+    max-width: 425px;
+    height: auto;
+    aspect-ratio: 425 / 550;
+    margin: auto;
     border: 2px solid rgb(13, 193, 224);
-    margin: 5px;
     text-align: center;
 }
